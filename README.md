@@ -40,12 +40,12 @@ Before you begin, ensure you have the following installed:
         'ENGINE': 'djongo',
         'NAME': 'your-database-name',
     }
-}
+    }
 
-import pymongo
+    import pymongo
 
-client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client['your-database-name']
+    client = pymongo.MongoClient("mongodb://localhost:27017/")
+    db = client['your-database-name']
     ```
 
     Replace 'your-database-name' with your actual your schema name.
